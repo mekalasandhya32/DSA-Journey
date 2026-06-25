@@ -1,0 +1,19 @@
+class Solution {
+    void MoveAllZerosToEnd(int[] arr) {
+        // code here
+        int n=arr.length;
+        int count=0;
+        int i=0;
+        for(i=0;i<n;i++){
+            if(arr[i]!=0){
+                arr[count++]=arr[i];
+            }
+            
+        }
+        for(int j=count;j<n;j++){
+            arr[j]=0;
+        }
+        
+        
+    }
+}
