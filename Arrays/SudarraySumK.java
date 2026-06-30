@@ -1,3 +1,4 @@
+
 class Solution {
     public int cntSubarrays(int[] arr, int k) {
         // code here
